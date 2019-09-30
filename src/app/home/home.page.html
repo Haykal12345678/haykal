@@ -1,21 +1,23 @@
 <ion-header>
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
     <ion-title>
-      Login Page
+      Home
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    <ion-item>
-      <ion-label position="floating">Username</ion-label>
-      <ion-input></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label position="floating">Password</ion-label>
-      <ion-input></ion-input>
-    </ion-item>
-    <ion-button expand="block" fill="outline">LOGIN</ion-button>
-  </div>
+  <ion-card class="welcome-card">
+    <img src="/assets/shapes.svg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>AyoSHOPING</ion-card-subtitle>
+      <ion-card-title>Welcome to AyoSHOPING</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>BURUAN!! Banyak penawaran menarik dengan harga murah.</p>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
